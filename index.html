@@ -1,462 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Langly</title>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Langly - AI-Driven Virtual Customer Advisor</title>
 
-    <!-- BOOTSTRAP CSS LINK -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+<!-- BOOTSTRAP CSS LINK -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+crossorigin="anonymous"
+/>
 
-    <!-- BOOTSTRAP ICON LINK -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+<!-- BOOTSTRAP ICON LINK -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-      body {
-        font-family: "Inter", sans-serif;
-      }
-      .grid-icon {
-        font-size: 5rem;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- HERO SECRTION -->
-    <section class="py-5 px-2 p-lg-5">
-      <div class="container-lg">
-        <div class="row align-items-center g-5">
-          <div class="col-md-6 text-center text-md-start p-3 ps-md-5 ps-lg-2">
-            <h1 class="fs-1 fw-bolder mb-3 text-danger">Say Hello to «Langly»!</h1>
-            <p class="fs-1 fw-medium mb-5 lh-1">
-              Your new customer consultantin the box.
-            </p>
-            <ul class="list-unstyled fs-5 d-flex flex-column gap-2">
-              <li class="">
-                <i class="bi bi-laptop text-info fs-4 me-3"></i>
-                <span>24/7 virtual customer support</span>
-              </li>
-              <li class="">
-                <i class="bi bi-phone text-info fs-4 me-3"></i>
-                <span>24/7 virtual customer support</span>
-              </li>
-              <li class="">
-                <i class="bi bi-phone text-info fs-4 me-3"></i>
-                <span>24/7 virtual customer support</span>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 text-center px-5 p-md-0">
-            <img
-              src="images/hero-img.png"
-              alt="ebusiness suite image showing chatbot"
-              class="hero-img w-100 px-5 p-md-0"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+body {
+font-family: "Inter", sans-serif;
+}
+.grid-icon {
+font-size: 5rem;
+}
+</style>
+</head>
+<body>
+<!-- HERO SECTION -->
+<section class="py-5 px-2 p-lg-5 bg-light">
+<div class="container-lg">
+<div class="row align-items-center g-5">
+<div class="col-md-6 text-center text-md-start p-3 ps-md-5 ps-lg-2">
+<h1 class="fs-1 fw-bolder mb-3 text-danger">Say Hello to Langly!</h1>
+<p class="fs-4 fw-medium mb-5 lh-1">
+Your new customer consultant in the box.
+</p>
+<ul class="list-unstyled fs-5 d-flex flex-column gap-2">
+<li>
+<i class="bi bi-laptop text-info fs-4 me-3"></i>
+<span>24/7 virtual customer support</span>
+</li>
+<li>
+<i class="bi bi-phone text-info fs-4 me-3"></i>
+<span>24/7 virtual customer support</span>
+</li>
+<li>
+<i class="bi bi-globe text-info fs-4 me-3"></i>
+<span>Multilingual support</span>
+</li>
+</ul>
+</div>
+<div class="col-md-6 text-center px-5 p-md-0">
+<img
+src="images/hero-img.png"
+alt="Ebusiness suite showing chatbot"
+class="hero-img w-100"
+/>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- SECTION ABOUT -->
-    <section class="py-5 px-2 p-md-5">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-md-4">
-            <div
-              class="d-flex flex-column justify-content-between h-100 p-5 py-md-0 px-md-3"
-            >
-              <p class="fs-1 fw-bold lh-sm align-self-end">
-                1285
-                <span class="fs-5 fw-normal d-block lh-1 text-secondary"
-                  >Busines <br />Features</span
-                >
-              </p>
-              <p class="fs-1 fw-bold lh-sm">
-                2
-                <span class="fs-5 fw-normal d-block lh-1 text-secondary"
-                  >Million <br />Users</span
-                >
-              </p>
-              <p class="fs-1 fw-bold lh-sm align-self-end">
-                12
-                <span class="fs-5 fw-normal d-block lh-1 text-secondary"
-                  >Countries
-                </span>
-              </p>
-              <p class="fs-1 fw-bold lh-sm">
-                65000
-                <span class="fs-5 fw-normal d-block lh-1 text-secondary"
-                  >Companies
-                </span>
-              </p>
-              <p class="fs-1 fw-bold lh-sm align-self-end">
-                15
-                <span class="fs-5 fw-normal d-block lh-1 text-secondary"
-                  >Years on the<br />Market</span
-                >
-              </p>
-            </div>
-          </div>
+<!-- ABOUT SECTION -->
+<section class="py-5 px-2 p-md-5 bg-white">
+<div class="container">
+<div class="row g-5">
+<div class="col-md-4">
+<div class="d-flex flex-column justify-content-between h-100 p-5 py-md-0 px-md-3">
+<p class="fs-1 fw-bold lh-sm align-self-end">
+1285
+<span class="fs-5 fw-normal d-block lh-1 text-secondary">
+Business <br />Features
+</span>
+</p>
+<p class="fs-1 fw-bold lh-sm">
+2
+<span class="fs-5 fw-normal d-block lh-1 text-secondary">
+Million <br />Users
+</span>
+</p>
+<p class="fs-1 fw-bold lh-sm align-self-end">
+12
+<span class="fs-5 fw-normal d-block lh-1 text-secondary">
+Countries
+</span>
+</p>
+<p class="fs-1 fw-bold lh-sm">
+65000
+<span class="fs-5 fw-normal d-block lh-1 text-secondary">
+Companies
+</span>
+</p>
+<p class="fs-1 fw-bold lh-sm align-self-end">
+15
+<span class="fs-5 fw-normal d-block lh-1 text-secondary">
+Years on the<br />Market
+</span>
+</p>
+</div>
+</div>
 
-          <!-- about text box -->
-          <div class="col-md-7 ms-auto text-center text-sm-start">
-            <h2 class="fs-1 fw-bolder mb-4">About Us</h2>
-            <p class="fs-4 mb-5 fw-medium">
-              <span class="text-info">Langmeier Software</span>, based in
-              Switzerland, specializes in innovative software solutions designed
-              to streamline business processes and elevate customer engagement.
-              Langly, our flagship AI chatbot, epitomizes our commitment to
-              transforming digital interactions across various industries.
-            </p>
+<!-- About text box -->
+<div class="col-md-7 ms-auto text-center text-sm-start">
+<h2 class="fs-1 fw-bolder mb-4">About Us</h2>
+<p class="fs-4 mb-5 fw-medium">
+<span class="text-info">Langmeier Software</span>, based in Switzerland, specializes in innovative software solutions designed to streamline business processes and elevate customer engagement. Langly, our flagship AI chatbot, epitomizes our commitment to transforming digital interactions across various industries.
+</p>
 
-            <!-- inner grid -->
-            <div class="row fs-5 g-3 mb-3">
-              <p class="col-sm-6">
-                With its tried-and-tested cloud software “aBusiness Suite”, the
-                company offers pioneering solutions for the paperless office and
-                the digital transformation of companies.
-              </p>
+<!-- Inner grid -->
+<div class="row fs-5 g-3 mb-3">
+<p class="col-sm-6">
+With its tried-and-tested cloud software “aBusiness Suite”, the company offers pioneering solutions for the paperless office and the digital transformation of companies.
+</p>
 
-              <p class="col-sm-6">
-                For 15 years, we have been known for exceptional user experience
-                and unparalleled work efficiency in IT
-              </p>
-            </div>
+<p class="col-sm-6">
+For 15 years, we have been known for exceptional user experience and unparalleled work efficiency in IT.
+</p>
+</div>
 
-            <!-- ceo grid -->
-            <div
-              class="row align-items-center justify-content-center justify-content-sm-start"
-            >
-              <img
-                src="images/Urs-Langmeier.jpg"
-                alt="Urs-Langmeier"
-                class="col-6 rounded-circle border border-5 border-danger p-0"
-                style="width: 64px"
-              />
-              <div class="col-6 text-body-tertiary fw-bold">
-                <p class="m-0">Urs Langmeier</p>
-                <p class="">CEO Langmeier Software</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- CEO grid -->
+<div class="row align-items-center justify-content-center justify-content-sm-start">
+<img
+src="images/Urs-Langmeier.jpg"
+alt="Urs Langmeier"
+class="col-6 rounded-circle border border-5 border-danger p-0"
+style="width: 64px"
+/>
+<div class="col-6 text-body-tertiary fw-bold">
+<p class="m-0">Urs Langmeier</p>
+<p class="">CEO Langmeier Software</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- SECTION BENIFITS -->
-    <section class="py-5 px-2 p-md-5">
-      <div class="container-lg">
-        <div class="row align-items-center">
-          <div class="col-lg-7 p-2 p-md-5">
-            <h2 class="fs-1 fw-bolder mb-5 text-center text-lg-start">
-              Core Benefits of Langly
-            </h2>
+<!-- BENEFITS SECTION -->
+<section class="py-5 px-2 p-md-5 bg-light">
+<div class="container-lg">
+<div class="row align-items-center">
+<div class="col-lg-7 p-2 p-md-5">
+<h2 class="fs-1 fw-bolder mb-5 text-center text-lg-start">
+Core Benefits of Langly
+</h2>
 
-            <!-- list fo benifits -->
-            <ul
-              class="d-flex flex-column list-unstyled gap-4 text-center text-lg-start"
-            >
-              <li
-                class="d-flex gap-4 flex-column flex-lg-row justify-content-center"
-              >
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Efficiency and Customer Satisfaction</p>
-                  <p>
-                    Automates routine customer interactions, allowing your team
-                    to focus on complex queries. This shift not only enhances
-                    customer service but also reduces operational costs and
-                    increases response efficiency.
-                  </p>
-                </div>
-              </li>
-              <li class="d-flex gap-4 flex-column flex-lg-row">
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Adaptability Across Industries</p>
-                  <p>
-                    Especially effective in the hospitality and service sectors,
-                    Langly manages bookings, addresses guest inquiries, and
-                    offers timely information, significantly improving service
-                    standards
-                  </p>
-                </div>
-              </li>
+<!-- List of benefits -->
+<ul class="d-flex flex-column list-unstyled gap-4 text-center text-lg-start">
+<li class="d-flex gap-4 flex-column flex-lg-row justify-content-center">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Efficiency and Customer Satisfaction</p>
+<p>
+Automates routine customer interactions, allowing your team to focus on complex queries. This shift not only enhances customer service but also reduces operational costs and increases response efficiency.
+</p>
+</div>
+</li>
+<li class="d-flex gap-4 flex-column flex-lg-row">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Adaptability Across Industries</p>
+<p>
+Especially effective in the hospitality and service sectors, Langly manages bookings, addresses guest inquiries, and offers timely information, significantly improving service standards.
+</p>
+</div>
+</li>
+<li class="d-flex gap-4 flex-column flex-lg-row">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Enhanced Hotel Experience</p>
+<p>
+Acts as an AI receptionist, facilitating interactions in multiple languages via a simple QR code scan, directly influencing positive guest reviews and ratings on platforms like Booking.com or Google Maps.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-lg-5 px-2 py-0 px-md-5 py-md-0 p-lg-0">
+<img
+src="images/features-img.jpg"
+class="w-100"
+alt="Benefits"
+/>
+</div>
+</div>
+</div>
+</section>
 
-              <li class="d-flex gap-4 flex-column flex-lg-row">
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Enhanced Hotel Experience</p>
-                  <p>
-                    Acts as an AI receptionist, facilitating interactions in
-                    multiple languages via a simple QR code scan, directly
-                    influencing positive guest reviews and ratings on platforms
-                    like Booking.com or Google Maps.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-5 px-2 py-0 px-md-5 py-md-0 p-lg-0">
-            <img
-              src="images/features-img.jpg"
-              class="w-100 px-2 py-0 px-md-5 py-md-0 p-lg-0"
-              alt="benifits-img"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- FEATURES SECTION -->
+<section class="py-5 px-2 p-md-5 bg-white">
+<div class="container-lg">
+<div class="row align-items-center">
+<div class="col-lg-7 p-2 p-md-5">
+<h2 class="fs-1 fw-bolder mb-5 text-center text-lg-start">
+Core Features
+</h2>
 
-    <!-- SECTION FEATURES -->
-    <section class="py-5 px-2 p-md-5">
-      <div class="container-lg">
-        <div class="row align-items-center">
-          <div class="col-lg-7 p-2 p-md-5">
-            <h2 class="fs-1 fw-bolder mb-5 text-center text-lg-start">
-              Core Features
-            </h2>
+<!-- List of features -->
+<ul class="d-flex flex-column list-unstyled gap-4 text-center text-lg-start">
+<li class="d-flex gap-4 flex-column flex-lg-row justify-content-center">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Seamless System Integration</p>
+<p>
+Integrates effortlessly with existing CRM and ERP systems, ensuring smooth operations and enhanced data management.
+</p>
+</div>
+</li>
+<li class="d-flex gap-4 flex-column flex-lg-row">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Multilingual Support</p>
+<p>
+Communicates effectively across various customer demographics by supporting multiple languages, essential for global business operations.
+</p>
+</div>
+</li>
+<li class="d-flex gap-4 flex-column flex-lg-row">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">AI-Driven Interactions</p>
+<p>
+Utilizes advanced machine learning to provide personalized, accurate customer interactions, improving engagement and satisfaction.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-lg-5 px-2 py-0 px-md-5 py-md-0 p-lg-0">
+<img
+src="images/features-img.jpg"
+class="w-100"
+alt="Features"
+/>
+</div>
+</div>
+</div>
+</section>
 
-            <!-- list fo benifits -->
-            <ul
-              class="d-flex flex-column list-unstyled gap-4 text-center text-lg-start"
-            >
-              <li
-                class="d-flex gap-4 flex-column flex-lg-row justify-content-center"
-              >
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Seamless System Integration</p>
-                  <p>
-                    Integrates effortlessly with existing CRM and ERP systems,
-                    ensuring smooth operations and enhanced data management
-                  </p>
-                </div>
-              </li>
-              <li class="d-flex gap-4 flex-column flex-lg-row">
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Multilingual Support</p>
-                  <p>
-                    Communicates effectively across various customer
-                    demographics by supporting multiple languages, essential for
-                    global business operations.
-                  </p>
-                </div>
-              </li>
+<!-- TECHNICAL SOPHISTICATION SECTION -->
+<section class="py-5 px-2 p-md-5 bg-light">
+<div class="container-lg">
+<div class="row align-items-center">
+<div class="col-lg-7 p-2 p-md-5">
+<h2 class="fs-1 fw-bolder mb-5 text-center text-lg-start">
+Technical Sophistication
+</h2>
 
-              <li class="d-flex gap-4 flex-column flex-lg-row">
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">AI-Driven Interactions</p>
-                  <p>
-                    Utilizes advanced machine learning to provide personalized,
-                    accurate customer interactions, improving engagement and
-                    satisfaction.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-5 px-2 py-0 px-md-5 py-md-0 p-lg-0">
-            <img
-              src="images/features-img.jpg"
-              class="w-100 px-2 py-0 px-md-5 py-md-0 p-lg-0"
-              alt="features-img"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- List of technical features -->
+<ul class="d-flex flex-column list-unstyled gap-4 text-center text-lg-start">
+<li class="d-flex gap-4 flex-column flex-lg-row justify-content-center">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Comprehensive Support and Development</p>
+<p>
+Langmeier Software is committed to continuous improvement and support, ensuring Langly meets the evolving needs of your business.
+</p>
+</div>
+</li>
+<li class="d-flex gap-4 flex-column flex-lg-row">
+<i class="bi bi-check-square-fill fs-1 text-danger"></i>
+<div class="fs-5">
+<p class="fw-bold">Robust Architecture</p>
+<p>
+Built on a scalable infrastructure that supports high traffic and user engagement. Incorporates best practices in security to protect user data and system integrity.
+</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-lg-5 px-2 py-0 px-md-5 py-md-0 p-lg-0">
+<img
+src="images/technical-img.jpg"
+class="w-100"
+alt="Technical Sophistication"
+/>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- SECTION Technical Sophistication -->
-    <section class="py-5 px-2 p-md-5">
-      <div class="container-lg">
-        <div class="row align-items-center">
-          <div class="col-lg-7 p-2 p-md-5">
-            <h2 class="fs-1 fw-bolder mb-5 text-center text-lg-start">
-              Technical Sophistication
-            </h2>
+<!-- BUSINESS ADVANTAGE SECTION -->
+<section class="py-5 px-2 p-md-5 bg-white">
+<div class="container">
+<h2 class="fs-1 fw-bolder text-center mb-4">
+Strategic Business Advantage
+<span class="d-block text-danger mt-2">for Langly Users</span>
+</h2>
 
-            <!-- list fo benifits -->
-            <ul
-              class="d-flex flex-column list-unstyled gap-4 text-center text-lg-start"
-            >
-              <li
-                class="d-flex gap-4 flex-column flex-lg-row justify-content-center"
-              >
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Comprehensive Support and Development</p>
-                  <p>
-                    Langmeier Software is committed to continuous improvement
-                    and support, ensuring Langly meets the evolving needs of
-                    your business.
-                  </p>
-                </div>
-              </li>
-              <li class="d-flex gap-4 flex-column flex-lg-row">
-                <i class="bi bi-check-square-fill fs-1 text-danger"></i>
-                <div class="fs-5">
-                  <p class="fw-bold">Robust Architecture</p>
-                  <p>
-                    Built on a scalable infrastructure that supports high
-                    traffic and user engagement. Incorporates best practices in
-                    security to protect user data and system integrity.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-5 px-2 py-0 px-md-5 py-md-0 p-lg-0">
-            <img
-              src="images/technical-img.jpg"
-              class="w-100 px-2 py-0 px-md-5 py-md-0 p-lg-0"
-              alt="AI-img"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Grid 2 cols -->
+<div class="row text-center">
+<div class="col-md-6 p-2 p-md-3 p-lg-5">
+<i class="bi bi-currency-dollar text-danger grid-icon"></i>
+<h3 class="fw-bold fs-3 mb-3">Revenue Generation</h3>
+<p class="fs-4">
+Offers potential for new revenue streams through reselling or integration services, tailored to your business model.
+</p>
+</div>
+<div class="col-md-6 p-2 p-md-3 p-lg-5">
+<i class="bi bi-puzzle-fill text-danger grid-icon"></i>
+<h3 class="fw-bold fs-3 mb-3">Differentiation</h3>
+<p class="fs-4">
+Incorporating Langly provides a unique competitive edge, enhancing your consultancy’s offerings and client satisfaction.
+</p>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- SECTION BUSINESS ADVANTAGE -->
-    <section class="py-5 px-2 p-md-5">
-      <div class="container">
-        <h2 class="fs-1 fw-bolder text-center mb-4">
-          Strategic Business Advantage
-          <span class="d-block text-danger mt-2">for Langly Users</span>
-        </h2>
+<!-- TECHNOLOGIES SECTION -->
+<section class="py-5 px-2 py-5 p-md-5 bg-light">
+<div class="container">
+<h2 class="fs-1 fw-bolder text-center mb-5">
+Technological Differentiation
+<span class="d-block text-danger mt-2">of Rule-based Chatbots vs. Langly</span>
+</h2>
 
-        <!-- grid 2 cols -->
-        <div class="row text-center">
-          <div class="col-md-6 p-2 p-md-3 p-lg-5">
-            <i class="bi bi-currency-dollar text-danger grid-icon"></i>
-            <h3 class="fw-bold fs-3 mb-3">Revenue Generation</h3>
-            <p class="fs-4">
-              Offers potential for new revenue streams through reselling or
-              integration services, tailored to your business model.
-            </p>
-          </div>
-          <div class="col-md-6 p-2 p-md-3 p-lg-5">
-            <i class="bi bi-puzzle-fill text-danger grid-icon"></i>
-            <h3 class="fw-bold fs-3 mb-3">Differentiation</h3>
-            <p class="fs-4">
-              Incorporating Langly provides a unique competitive edge, enhancing
-              your consultancy’s offerings and client satisfaction.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- Grid 2 cols -->
+<div class="row text-center">
+<div class="col-md-6 p-2 p-md-3 p-lg-5">
+<h3 class="fw-bold fs-3 mb-4">Rule-based Chatbots</h3>
+<p class="fs-5">
+Rule-based Chatbots operate on a clearly defined set of rules based on "if-then" logic. Each user input is matched against this rule set, and responses are based on preprogrammed scripts. Rule-based systems are limited in their flexibility and can only handle predictable, well-defined tasks.
+</p>
+</div>
+<div class="col-md-6 p-2 p-md-3 p-lg-5 position-relative">
+<h3 class="fw-bold fs-3 mb-4">AI Chatbots</h3>
+<p class="fs-5">
+AI Chatbots utilize machine learning and natural language processing (NLP) to understand and respond to user queries. Unlike rule-based bots, AI Chatbots can learn from company data and improve their responses over time. They can handle unexpected user queries and can be deployed in more complex interaction environments.
+</p>
+<p class="position-absolute fs-3 fw-bold text-danger" style="bottom: -2rem">
+Langly <i class="bi bi-arrow-up-right"></i>
+</p>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- SECTION Technologies -->
-    <section class="py-5 px-2 py-5 p-md-5">
-      <div class="container">
-        <h2 class="fs-1 fw-bolder text-center mb-5">
-          Technologic Differenciation
-          <span class="d-block text-danger mt-2"
-            >of Rule-based Chatbots vs. Langly</span
-          >
-        </h2>
+<!-- PERSONALIZED DEMO SECTION -->
+<section class="px-2 py-3 p-md-5 bg-white">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-md-6">
+<img
+src="images/demo-img.png"
+class="w-100"
+alt="Demo of chatbot"
+/>
+</div>
+<div class="col-md-6 ms-auto p-3 p-lg-5 shadow-lg rounded">
+<p class="fs-2 mb-4">
+Experience the transformative impact of Langly with a personalized demo.
+</p>
+<p class="fs-5">
+Discover how our AI-driven solutions can revolutionize your customer interactions and business processes.
+</p>
+</div>
+</div>
+</div>
+</section>
 
-        <!-- grid 2 cols -->
-        <div class="row text-center">
-          <div class="col-md-6 p-2 p-md-3 p-lg-5">
-            <h3 class="fw-bold fs-3 mb-4">Rule-based Chatbots</h3>
-            <p class="fs-5">
-              Rule-based Chatbots: These operate on a clearly defined set of
-              rules based on "if-then" logic. Each user input is matched against
-              this rule set, and responses are based on preprogrammed scripts.
-              Rule-based systems are limited in their flexibility and can only
-              handle predictable, welldefined tasks.
-            </p>
-          </div>
-          <div class="col-md-6 p-2 p-md-3 p-lg-5 position-relative">
-            <h3 class="fw-bold fs-3 mb-4">AI Chatbots</h3>
-            <p class="fs-5">
-              Artificial Intelligent Chatbots utilize machine learning and
-              natural language processing (NLP) to understand and respond to
-              user queries. Unlike rule-based bots, AI Chatbots can learn from
-              company data and improve their responses over time. They can
-              handle unexpected user queries and can be deployed in more complex
-              interaction environments.
-            </p>
-            <p
-              class="position-absolute fs-3 fw-bold text-danger"
-              style="bottom: -2rem"
-            >
-              Langly <i class="bi bi-arrow-up-right"></i>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- CONTACT SECTION -->
+<section class="px-2 py-5 bg-light">
+<div class="container">
+<div class="row">
+<div class="col-md-6 ms-auto">
+<p class="fs-4 mb-4 m-sm-3">Your contact person:</p>
+<div class="d-flex flex-column align-items-sm-center gap-4 flex-sm-row">
+<img
+src="images/Enrique-Georg-Zbinden.jpg"
+width="96"
+class="rounded-circle border border-5 border-danger"
+alt="Enrique Georg Zbinden"
+/>
+<div>
+<p class="fs-4 fw-bolder mb-2">Enrique Georg Zbinden</p>
+<p class="mb-0 fs-5">e.g.zbinden@langsmeier-software.com</p>
+<p class="fs-5">044 861 15 70</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <!-- section personlized demo -->
-    <section class="px-2 py-3 p-md-5">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <img
-              src="images/demo-img.png"
-              class="w-100"
-              alt="demo of chat bot image"
-            />
-          </div>
-          <div class="col-md-6 ms-auto p-3 p-lg-5 shadow-lg rounded">
-            <p class="fs-2 mb-4">
-              Experience the transformative impact of Langly with a personalized
-              demo.
-            </p>
-            <p class="fs-5">
-              Discover how our AI-driven solutions can revolutionize your
-              customer interactions and business processes.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION CONTACT -->
-    <section class="px-2 py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 ms-auto">
-            <p class="fs-4 mb-4 m-sm-3">Your contact person:</p>
-            <div
-              class="d-flex flex-column align-items-sm-center gap-4 flex-sm-row"
-            >
-              <img
-                src="images/Enrique-Georg-Zbinden.jpg"
-                width="96"
-                class="rounded-circle border border-5 border-danger"
-                alt="Enrique-Georg-Zbinden"
-              />
-              <div>
-                <p class="fs-4 fw-bolder mb-2">Enrique Georg Zbinden</p>
-                <p class="mb-0 fs-5">e.g.zbinden@langsmeier-software.com</p>
-                <p class="fs-5">044 861 15 70</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- BOOTSTRAP JAVASCRIPT LINK -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<!-- BOOTSTRAP JAVASCRIPT LINK -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"
+></script>
+</body>
 </html>
