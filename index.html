@@ -30,6 +30,39 @@ font-family: "Inter", sans-serif;
 .grid-icon {
 font-size: 5rem;
 }
+.pricing-table {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .pricing-header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .pricing-content {
+            padding: 20px;
+        }
+        .pricing-content h2 {
+            margin-top: 0;
+        }
+        .pricing-option {
+            border-top: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .pricing-option:first-of-its-kind {
+            border-top: none;
+        }
+        .price {
+            font-size: 24px;
+            color: #0073e6;
+        }
+        .setup-fee {
+            margin-top: 20px;
+            text-align: center;
+        }
 </style>
 </head>
 <body>
@@ -367,6 +400,30 @@ Discover how our AI-driven solutions can revolutionize your customer interaction
 </div>
 </section>
 
+<!-- PRICING SECTION -->
+<div class="pricing-table">
+    <div class="pricing-header">
+        <h1>Langly AI Virtueller Assistent</h1>
+    </div>
+    <div class="pricing-content">
+        <div class="pricing-option">
+            <h2>Ohne Support</h2>
+            <p class="price">49 Franken monatlich</p>
+        </div>
+        <div class="pricing-option">
+            <h2>Mit Support</h2>
+            <p class="price">79 Franken monatlich</p>
+        </div>
+        <div class="pricing-option">
+            <h2>Mit Support und CRM</h2>
+            <p class="price">99 Franken monatlich</p>
+        </div>
+        <div class="setup-fee">
+            <p>Setup: 250 Franken</p>
+        </div>
+    </div>
+</div>
+
 <!-- CONTACT SECTION -->
 <section class="px-2 py-5 bg-light">
 <div class="container">
@@ -382,7 +439,7 @@ alt="Enrique Georg Zbinden"
 />
 <div>
 <p class="fs-4 fw-bolder mb-2">Enrique Georg Zbinden</p>
-<p class="mb-0 fs-5">e.g.zbinden@langsmeier-software.com</p>
+<p class="mb-0 fs-5">e.g.zbinden@langmeier-software.com</p>
 <p class="fs-5">044 861 15 70</p>
 </div>
 </div>
